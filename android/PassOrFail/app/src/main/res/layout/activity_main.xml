@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/phy"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="Phy"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/chem"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="Chem"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/mat"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="Math"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:hint="Submit"
+
+        />
+
+</LinearLayout>
